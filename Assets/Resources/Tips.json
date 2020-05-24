@@ -1,0 +1,214 @@
+{
+    "Tips":
+    [
+      {
+      "Level":0,
+      "tip1":"text1",
+       "tip2":"text2",
+       "tip3":"text3"
+      },
+      {"Level":1,
+      "tip1":"Welcome to the SolveMe! Thank you for downloading the game!",
+       "tip2":"Hmmm, that button is pretty interesting",
+       "tip3":"What will happen if you push that button a couple of times?"
+      },{
+      "Level":2,
+      "tip1":"Ok, clicking is not working. Maybe there are other variants?",
+       "tip2":"Hm, it's moving, but where should you place it?", 
+       "tip3":"Maybe somewhere in the top right corner..."
+       },{
+        "Level":3,
+        "tip1":"Hmmm, those squares become dark red, when you touch them",
+         "tip2":"If you touch not the neighbor squares, all the progress resets.",
+         "tip3":"So, should you touch only <b>neighbor</b> squares?"
+        },{
+      
+      "Level":4,
+      "tip1":"I think you can click on these squares", 
+       "tip2":"However, you can click on them by a special order", 
+       "tip3":"Maybe there is a hint somewhere on the screen..."
+      },{
+      "Level":5,
+      "tip1":"Wow, you can swap that figures just with your finger",
+       "tip2":"That figures must be standing in a special order",
+       "tip3":"Something with the wave pattern"
+       },{
+        "Level":6,
+        "tip1":"Seems like that dots show the direction.",
+         "tip2":"Start from the top left figure and move 2 figures right", 
+         "tip3":"3 dots - move 2 figures, 2 dots - move 1 figure."
+        },{
+      "Level":7,
+      "tip1":"Ok, this time there is something with blue squares. Is there any symmetry?", 
+       "tip2":"They have strange behavior. If you click the left square, right square turns off!", 
+       "tip3":"Seems like all of them are inverted!"
+      },{
+      "Level":8,
+      "tip1":"This figure is pretty complex!",
+       "tip2":"Does it contain any other figures?",
+       "tip3":"These buttons are connected to the triangles!" 
+      },{
+      "Level":9,
+      "tip1":"Think about the number in the figure as two numbers.",
+       "tip2":"You need to press buttons in the right order. From less to high.",
+       "tip3":"Like 09 is 0 and 9. Same with other buttons and numbers from 0 to 9 ;)"
+      },{
+      "Level":10,
+      "tip1":"This little square must be there for some reason.", 
+       "tip2":"Looks like it shows, what squares to click!",
+       "tip3":"There are 9 phases for 9 numbers!"
+      },{
+      "Level":11,
+      "tip1":"I don't like these circles, move them away, please.", 
+       "tip2":"I think you need to make a line with these arrows.",
+       "tip3":"And move arrows to the circles."
+      },{
+      "Level":12,
+      "tip1":"We need to put this rhomb in the right places. Sounds easy.",
+       "tip2":"Hmm, maybe we need to use a blue circle to block one of the rhombs.",
+       "tip3":"Set one rhomb in the right place, next move circle and second rhomb to the border."
+      },{
+      "Level":13,
+      "tip1":"These objects scale with different speed.", 
+       "tip2":"So, maybe you need to cover all the screen?",
+       "tip3":"You can do it! There is no trick!"
+      },{
+      "Level":14,
+      "tip1":"Hmm, it seems like a number.",
+       "tip2":"What is the current level number?",
+       "tip3":"Try to use only left or only right numbers! It's 14, right!"
+      },{
+      "Level":15,
+      "tip1":"Two buttons, Hmmm.",
+       "tip2":"And strange arrows-like figures.",
+       "tip3":"LLRRLRLR. Good job!"
+      },{
+      "Level":16,
+      "tip1":"There are 3 buttons.",
+       "tip2":"Click in the right order!",
+       "tip3":"Down, left, right, left, down "
+      },{
+      "Level":17,
+      "tip1":"When you touch these squares, they are turning off with a 'cross' pattern.", 
+       "tip2":"Yes, all you need is to turn all of them off.",
+       "tip3":"Try to start from the corners."
+      },{
+      "Level":18,
+      "tip1":"Zeroes and ones.",
+       "tip2":"Yep, it's just like a binary to decimal converter.",
+       "tip3":"And what was the current level number, again?"
+      },{
+      "Level":19,
+      "tip1":"Hmm, so, when you hold that thermometer, it starts to rise.",
+       "tip2":"And resets, when you release your finger!",
+       "tip3":"Oh, is this one of those level-numbered solutions???"
+      },{
+      "Level":20,
+      "tip1":"Wow, these circles are just like big pixels!", 
+       "tip2":"Seems like you need to input something.",
+       "tip3":"Wow, are all puzzles in that game being solved with just inputting the number of the current level?" 
+      },{
+      "Level":21,
+      "tip1":"That's a tricky one, you need to touch all the figures and come to the cross.",
+       "tip2":"I think, you can start from the left figure in the third row and click on the third figure in the same row.",
+       "tip3":"You can do it! (Does anyone even read that? Leave a comment, if so ._.)"
+      },{
+      "Level":22,
+      "tip1":"It was pretty hard to draw all these shields and all you need is just to touch them in the right order!",
+       "tip2":"Ok, shields are cool, but don't look at them, just look at their form!",
+       "tip3":"Right! All you need is just to press them in order from less to more corners." 
+      },{
+      "Level":23,
+      "tip1":"Is it Wednesday already? Get me out!",
+       "tip2":"Can you hear that? The walls!",
+       "tip3":"Not all the walls sound the same."
+      },{
+      "Level":24,
+      "tip1":"Here comes a real challenge! 200IQ TEST!",
+       "tip2":"Try to solve the first pyramid, and only after that, go for the others.",
+       "tip3":"Thank you for your support! I appreciate that! :*"
+      },{
+      "Level":25,
+      "tip1":"Woah! This level is just like from old-school text-quests!",
+       "tip2":"Maybe, you can get some words from these letters? ", 
+       "tip3":"Just like DOWN or maybe RIGHT, have you tried the WIN command?"
+      },{
+      "Level":26,
+      "tip1":"Hmm, look at all these arrows, maybe they need to face in the right direction?", 
+       "tip2":"There are 4 hidden coins.",
+       "tip3":"When all the arrows face the square, you will find the truth."
+      },{
+      "Level":27,
+      "tip1":"Oh, do you remember those old games, where you had to connect all the pipes?", 
+       "tip2":"You can do it just by clicking the squares.",
+       "tip3":"Yes, this is a river!" 
+      },{
+      "Level":28,
+      "tip1":"Imagine, that you are walking on that digit.", 
+       "tip2":"Some dots will be from the left side, others from the right side.",
+       "tip3":"RLLRRLRRLRLLRL. You're welcome!"
+      },{
+      "Level":29,
+      "tip1":"There are so many squares. Have you tried to click them?",
+       "tip2":"Somewhere on the down-right corner.",
+       "tip3":"On the 4th row and 4th column."
+      },{
+      "Level":30,
+      "tip1":"Yep, it's time to relax and solve that puzzle.",
+       "tip2":"There is no trick.",
+       "tip3":"Thank you for clicking this hint button!"
+      },{
+      "Level":31,
+      "tip1":"Arrows show you the direction of the next touch.",
+       "tip2":"For example, your second touch should be lower than the last, and after that, you do two taps higher.",
+       "tip3":"Touch, down, up, up, right, right and so on..."
+      },{
+      "Level":32,
+      "tip1":"Start from any dice and go clockwise.",
+       "tip2":"The number of dice shows the next click position.",
+       "tip3":"As if you touch 4 in the top left corner, you need to touch 2 in the top right corner."
+      },{
+      "Level":33,
+      "tip1":"Keep spinning!",
+       "tip2":"Yeeees! Spin more!!!",
+       "tip3":"You can spin in any direction!"
+      },{
+      "Level":34,
+      "tip1":"Do not pay attention to this face.", 
+       "tip2":"You need to click every button a certain number of times.",
+       "tip3":"Counting from the down, first need to be clicked once, second two times and so on. "
+      },{
+      "Level":35,
+      "tip1":"Patience is the key!",
+       "tip2":"Do not touch the screen.",
+       "tip3":"Yes, this is a task in which you don't have to do anything to win, literally." 
+      },{
+      "Level":36,
+      "tip1":"Try to touch different parts of the screen.",
+       "tip2":"You need to fill the screen, so there must be a way to solve it somehow.",
+       "tip3":"Try to check the bottom-right corner."
+      },{
+      "Level":37,
+      "tip1":"Hmm, where could you see these animals?", 
+       "tip2":"Maybe somewhere in the game menus.",
+       "tip3":"Check info screen, and click on them from left to right maybe..." 
+      },{
+      "Level":38,
+      "tip1":"First, you need to swap rhombuses.",
+       "tip2":"Second, you need to place the ball into any of the corners.",
+       "tip3":"Third, You are awesome!"
+      },{
+      "Level":39,
+      "tip1":"Make that arrow fall down",
+       "tip2":"What is the best way to rotate this arrow?", 
+       "tip3":"Correct, rotate the phone!"
+      },{
+      "Level":40,
+      "tip1":"Start from the blue arrows.",
+       "tip2":"Look at directions of arrows.", 
+       "tip3":"First, click at all arrows, that face right."
+      }
+     ]
+    
+   
+}

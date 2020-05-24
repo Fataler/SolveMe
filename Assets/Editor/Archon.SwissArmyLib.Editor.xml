@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Archon.SwissArmyLib.Editor</name>
+    </assembly>
+    <members>
+        <member name="T:Archon.SwissArmyLib.Editor.Utils.ExecutionOrderManager">
+            <summary>
+            Looks for classes using the <see cref="T:Archon.SwissArmyLib.Utils.Editor.ExecutionOrderAttribute"/> and sets their execution order.
+            </summary>
+        </member>
+        <member name="T:Archon.SwissArmyLib.Editor.Utils.ReadOnlyDrawer">
+            <summary>
+            Makes fields marked with <see cref="T:Archon.SwissArmyLib.Utils.Editor.ReadOnlyAttribute"/> uninteractable via the inspector.
+            </summary>
+        </member>
+        <member name="M:Archon.SwissArmyLib.Editor.Utils.ReadOnlyDrawer.OnGUI(UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent)">
+            <inheritdoc />
+        </member>
+        <member name="T:Archon.SwissArmyLib.Editor.ResourceSystem.ResourcePoolEditor">
+            <summary>
+            Custom editor for <see cref="T:Archon.SwissArmyLib.ResourceSystem.ResourcePoolBase"/> components.
+            
+            Shows a health bar and debugging buttons.
+            </summary>
+        </member>
+        <member name="M:Archon.SwissArmyLib.Editor.ResourceSystem.ResourcePoolEditor.OnInspectorGUI">
+            <inheritdoc />
+        </member>
+        <member name="M:Archon.SwissArmyLib.Editor.ResourceSystem.ResourcePoolEditor.Add(System.Single)">
+            <summary>
+            Adds a resource amount to all targeted components.
+            </summary>
+            <param name="amount">Amount to add</param>
+        </member>
+        <member name="M:Archon.SwissArmyLib.Editor.ResourceSystem.ResourcePoolEditor.Remove(System.Single)">
+            <summary>
+            Removes a resource amount from all targeted components.
+            </summary>
+            <param name="amount">Amount to remove</param>
+        </member>
+        <member name="M:Archon.SwissArmyLib.Editor.ResourceSystem.ResourcePoolEditor.Empty">
+            <summary>
+            Empties all targeted components.
+            </summary>
+        </member>
+        <member name="M:Archon.SwissArmyLib.Editor.ResourceSystem.ResourcePoolEditor.Fill">
+            <summary>
+            Fills all targeted components.
+            </summary>
+        </member>
+        <member name="M:Archon.SwissArmyLib.Editor.ResourceSystem.ResourcePoolEditor.Renew">
+            <summary>
+            Renews all targeted components.
+            </summary>
+        </member>
+    </members>
+</doc>
