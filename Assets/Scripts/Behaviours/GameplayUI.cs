@@ -12,14 +12,21 @@ public class GameplayUI : MonoBehaviour
     public GameObject fadeScr;
     public GameObject hint;
     public Button hintButton;
-    private List<string> levelTips;
-    private int tipCounter;
+    public Button skipButton;
+
+    private List<string> _levelTips;
+    private int _tipCounter;
 
     private void Start()
     {
         Invoke("ShowHintButton", 10f);
-        levelTips = GameManager.instance.GetTips(GameManager.instance.currentLevel);
+        _levelTips = GameManager.instance.GetTips(GameManager.instance.currentLevel);
         hintText.text = "";
+
+#if UNITY_EDITOR || UNITY_WEBGL
+        //enbled only in web and editor
+        skipButton.gameObject.SetActive(true);
+#endif
     }
 
     public void ShowHintButton()
@@ -65,22 +72,22 @@ public class GameplayUI : MonoBehaviour
     public void AdsDidFinish()
     {
         Debug.Log("nice");
-        if (levelTips != null)
+        if (_levelTips != null)
         {
             hint.gameObject.SetActive(true);
-            if (tipCounter < levelTips.Count)
+            if (_tipCounter < _levelTips.Count)
             {
-                if (tipCounter > 0)
+                if (_tipCounter > 0)
                 {
                     hintText.text += "\n";
                 }
-                hintText.text += levelTips[tipCounter];
+                hintText.text += _levelTips[_tipCounter];
                 hintText.text.Trim();
-                tipCounter++;
+                _tipCounter++;
             }
             else
             {
-                hintText.text = string.Join("\n", levelTips);
+                hintText.text = string.Join("\n", _levelTips);
             }
             Invoke("HideHint", 20f);
         }
@@ -93,5 +100,10 @@ public class GameplayUI : MonoBehaviour
         hintText.text = "Connection Error";
 
         Invoke("HideHint", 10f);
+    }
+
+    public void SkipLevel()
+    {
+        GameManager.instance.NextLevel();
     }
 }

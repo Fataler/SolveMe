@@ -1,8 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public static class SensativeData
+﻿//that must me hidden
+public static class SensitiveData
 {
     public const string ANDROIDADMOBID = "3494289";
     public const string IOSADMOBID = "3494288";

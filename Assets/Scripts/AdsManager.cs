@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Advertisements;
 using UnityEngine.SceneManagement;
 using GoogleMobileAds.Api;
@@ -18,11 +16,8 @@ public class AdsManager : Singleton<AdsManager>, IUnityAdsListener
     }
 
     //ads
-#if UNITY_ANDROID || UNITY_EDITOR
-    private const string AdId = SensativeData.ANDROIDADMOBID;
-#elif UNITY_IOS
-    private const string AdId =  SensativeData.IOSADMOBID;
-#endif
+    private string AdId = "";
+
     public AdsService service;
 
     //unity
@@ -32,15 +27,20 @@ public class AdsManager : Singleton<AdsManager>, IUnityAdsListener
     public bool testMode = true;
 
     //admob
-    private const string Rewarded = SensativeData.UNITYREWARDEDVIDEO;
+    private const string Rewarded = SensitiveData.UNITYREWARDEDVIDEO;
 
     private RewardBasedVideoAd rewardBasedVideo;
-    private const string Interstitial = SensativeData.UNITYINTERSTITIALVIDEO;
+    private const string Interstitial = SensitiveData.UNITYINTERSTITIALVIDEO;
 
     public bool adIsRunning = false;
 
     private void Start()
     {
+#if UNITY_ANDROID || UNITY_EDITOR
+        AdId = SensitiveData.ANDROIDADMOBID;
+#elif UNITY_IOS
+    AdId =  SensativeData.IOSADMOBID;
+#endif
         if (service == AdsService.Unity)
         {
             Advertisement.AddListener(this);

@@ -32,6 +32,9 @@ TextureImporter:
   - first:
       213: -6176048544804298481
     second: button_info
+  - first:
+      213: -5526285869835813272
+    second: skip_btn
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -345,6 +348,27 @@ TextureImporter:
       bones: []
       spriteID: f012f5312944a4aa0800000000000000
       internalID: -6176048544804298481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skip_btn
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1658
+        width: 70
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86efc29e740be43b0800000000000000
+      internalID: -5526285869835813272
       vertices: []
       indices: 
       edges: []
