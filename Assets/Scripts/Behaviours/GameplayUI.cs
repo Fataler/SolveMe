@@ -54,7 +54,12 @@ public class GameplayUI : MonoBehaviour
                 { "level_index",GameManager.instance.currentLevel },
                 {"timer",GameManager.instance.timer }
         });
+
+#if UNITY_WEBGL
+        AdsDidFinish();
+#else
         AdsManager.instance.ShowAd();
+#endif
     }
 
     public void HideHint()
